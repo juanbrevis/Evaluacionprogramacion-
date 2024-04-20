@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+    background-image: linear-gradient(-120deg,
+        rgba(255, 0, 0, 0.427),
+        rgba(184, 200, 157, 0.45))
+        ,url(img/fondofinnn.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-texto{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* este estilo se aplica a todos los h1 que están en la clase hero */
+.hero h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-decoration: solid 0 0 30px rgb(2, 87, 2);
+    margin-bottom: 20px;
+}
+.hero h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 15px rgb(30, 74, 1);
+}
+.info{
+    background-color: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+.titulo{
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(125, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.parrafo{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    text-shadow: 0 0 6px white;
+}
+
+.contenedor-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    box-shadow: 0 0 10px rgb(28, 125, 9);
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+}
+/* repetir desde iconos */
+.card i{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.margen-icono{
+    margin: 20px 0;
+}
+.boton{
+    background-color: rgb(164, 2, 2);
+    color:white;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    padding: 20px 15px;
+    display: inline-block;
+    margin:30px 0;
+    border: 1px solid darkturquoise;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.boton:hover{
+    background-color: white;
+    color: rgb(255, 47, 0);
+    border:1px solid rgb(0, 0, 0);
+}
+.card p{
+    text-align: center;
+    font-size: 25px;
+    margin: 15px 0;
+}
+.card h3{
+    font-size: 28px;
+}
+.galeria{
+    background-color: burlywood;
+}
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contenedor-galeria img{
+    width: 23%;
+    margin-bottom: 25px;
+    display: block;
+    box-shadow: 0 0 6px black;
+}
+.contenedor-galeria img:hover{
+    transform: scaleX(-1.01);
+    opacity: 0.6;
+    /* transition: 0.8s; */
+}
+.contacto{
+    background-color: azure;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.input{
+    background: transparent;
+    font-size: 30px;
+    margin-bottom: 30px;
+    border:0;
+    outline: none;
+    border: 3px solid rgb(22, 100, 2);
+    padding: 20px 10px;
+}
+.input-ancho{
+    width: 47%;
+}
+.ancho{
+    width: 96%;
+    resize: none;
+}
+
+.menu{
+    background-color: black;
+    list-style: none;
+    position: fixed;
+    width: 100%;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 18px;
+    display: inline-block;
+}
+.menu li a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline rgb(17, 83, 2);
+    transform: scale(1.01);
+    transition: 1s;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(102, 118, 103);
+    text-decoration: transparent
+}
